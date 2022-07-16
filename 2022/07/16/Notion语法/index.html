@@ -20,30 +20,36 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="风吹来故事的种子，时间使之发芽">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Zlxm&#39;s Blog">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="Notion编辑语法notion作为一款备受吹捧的笔记软件，因其较复杂的使用技巧而让大多数人望而却步，本文简单介绍了以block为核心的notion组件，希望可以帮助读者简单的了解notion">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Notion语法">
+<meta property="og:url" content="http://example.com/2022/07/16/Notion%E8%AF%AD%E6%B3%95/index.html">
 <meta property="og:site_name" content="Zlxm&#39;s Blog">
-<meta property="og:description" content="风吹来故事的种子，时间使之发芽">
+<meta property="og:description" content="Notion编辑语法notion作为一款备受吹捧的笔记软件，因其较复杂的使用技巧而让大多数人望而却步，本文简单介绍了以block为核心的notion组件，希望可以帮助读者简单的了解notion">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/.com//DSC_4412.jpg">
+<meta property="article:published_time" content="2022-07-16T12:51:28.000Z">
+<meta property="article:modified_time" content="2022-07-16T13:06:51.322Z">
 <meta property="article:author" content="Zlxm Chen">
+<meta property="article:tag" content="Notion">
+<meta property="article:tag" content="教程">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/.com//DSC_4412.jpg">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2022/07/16/Notion%E8%AF%AD%E6%B3%95/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>Zlxm's Blog</title>
+  <title>Notion语法 | Zlxm's Blog</title>
   
 
 
@@ -157,9 +163,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -175,10 +182,9 @@
       <meta itemprop="name" content="Zlxm's Blog">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/07/16/Notion%E8%AF%AD%E6%B3%95/" class="post-title-link" itemprop="url">Notion语法</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          Notion语法
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -211,89 +217,151 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Notion编辑语法"><a href="#Notion编辑语法" class="headerlink" title="Notion编辑语法"></a>Notion编辑语法</h1><p>notion作为一款备受吹捧的笔记软件，因其较复杂的使用技巧而让大多数人望而却步，本文简单介绍了以block为核心的notion组件，希望可以帮助读者简单的了解notion</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/07/16/Notion%E8%AF%AD%E6%B3%95/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
+        <h1 id="Notion编辑语法"><a href="#Notion编辑语法" class="headerlink" title="Notion编辑语法"></a>Notion编辑语法</h1><p>notion作为一款备受吹捧的笔记软件，因其较复杂的使用技巧而让大多数人望而却步，本文简单介绍了以block为核心的notion组件，希望可以帮助读者简单的了解notion</p>
+<span id="more"></span>
+<h2 id="Block的概念和作用"><a href="#Block的概念和作用" class="headerlink" title="Block的概念和作用"></a>Block的概念和作用</h2><p>简单来说block相当于段落，不同的“段落”具有不同的文本形式</p>
+<h3 id="主要的文本形式介绍："><a href="#主要的文本形式介绍：" class="headerlink" title="主要的文本形式介绍："></a>主要的文本形式介绍：</h3><aside>
+💡 可以通过 `/`+`Letter`快速生成或者调取不同类型的block，单击block选项来 `turn into`其他block
+
+</aside>
+
+<p>普通文本</p>
+<hr>
+<p>code<code>一段代码</code></p>
+<hr>
+<p><a target="_blank" rel="noopener" href="https://www.notion.so/Page-06e1a5fb81ca4faba7c5dbc7f1e7fac4">Page</a></p>
+<pre><code>    一个文件*（挂在本篇文章的下面，与后文提到的链接并不相同）可以方便的编辑*
+</code></pre>
+<hr>
+<ul>
+<li><input disabled type="checkbox"> To-do list</li>
+</ul>
+<hr>
+<h3 id="各种各样的Heading"><a href="#各种各样的Heading" class="headerlink" title="各种各样的Heading"></a>各种各样的Heading</h3><hr>
+<table>
+<thead>
+<tr>
+<th>Table</th>
+<th>2</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>4</td>
+<td>3</td>
+</tr>
+<tr>
+<td>5</td>
+<td>6</td>
+</tr>
+</tbody></table>
+<hr>
+<ul>
+<li>Button list</li>
+</ul>
+<ol>
+<li>Number list</li>
+</ol>
+<hr>
+<ul>
+<li>Toggle<ul>
+<li>也就是</li>
+<li>下拉菜单</li>
+</ul>
+</li>
+</ul>
+<hr>
+<blockquote>
+<p>quote                                                                                                                                            引用了                                                                                                                                           一篇文章</p>
+</blockquote>
+<hr>
+<p>💡 Call out，给自己提个醒</p>
+<hr>
+<p><a target="_blank" rel="noopener" href="https://www.notion.so/28ee6bd0b2e049fe8ceea2f5374a37b9">Board方便不同项目不同数量的添加</a></p>
+<p><em>当然本质的来说这是一个数据库，同时也是一个页面</em></p>
+<p>你还可以直接添加一个数据库作为子页面打开</p>
+<p><a target="_blank" rel="noopener" href="https://www.notion.so/433be794c491429ea3c041cdc35d08cf">比如这样</a></p>
+<p><img src="/.com//DSC_4412.jpg" alt="image此处添加注释"></p>
+<p>💡 方便的添加<code>image</code>、<code>video</code>、<code>map</code>、etc，还可以通过拖动的方式调整Block之间的关系，比如现在这样</p>
+<blockquote>
+<p>再多几个Block问题也不大，关于如何产生列详见<a target="_blank" rel="noopener" href="https://www.notion.so/Notion-2cc7508a168440308739ac1eaaa89c44">此处</a></p>
+</blockquote>
+<hr>
+<h3 id="Block相关操作："><a href="#Block相关操作：" class="headerlink" title="Block相关操作："></a>Block相关操作：</h3><ul>
+<li><strong><code>⋮⋮</code>图标：</strong>我们称之为<strong>块句柄</strong>，每当您将鼠标悬停在新行或内容块上时，它就会显示在左边距中。单击它以打开可以对块执行的操作菜单：<ul>
+<li>**<code>Duplicate</code>**：以块复制。</li>
+<li>**<code>Turn into</code>**：将块转换为其他类型的块</li>
+<li>**<code>Copy link</code>**：获取此块的链接（由其他地方快速导航）</li>
+<li>**<code>Move to</code>**：允许您将块移动到工作区中的另一页。</li>
+<li>**<code>Comment</code>**：允许您向块添加注释。</li>
+<li>**<code>Color</code>**：仅对某些类型的块显示，以将其变为颜色或突出显示，例如文本、文件和 Web 书签。</li>
+<li>**<code>Delete</code>**：非常不言自明！</li>
+<li>此图标还兼作句柄，可用于拖放块</li>
+<li>选中后可移动、添加层级关系</li>
+<li>选中后按住 <code>Alt</code>键可以快速复制多个Block</li>
+</ul>
+</li>
+<li>在Notion中，Block、Page属于非常相似的内容，所以你可以把block复制到其他文章，也可以把文章作为block嵌套到其他文章内，换而言之：<strong>block是page的最小组成单位，且无法独立存在</strong><em>（好像是一堆废话）</em></li>
+</ul>
+<p>💡 当一篇page作为data（数据库）打开时，你可以将它插入任何地方</p>
+<ul>
+<li><p>在Block范围内选择为文本光标，在Block范围外开始选择为框选工具</p>
+</li>
+<li><p>在Notion中添加列的办法：</p>
+<ul>
+<li>单击并拖动要放入另一列中的文本。（左边距中的符号是用于拖放的手柄。**<code>⋮⋮</code>**</li>
+<li>按照显示的蓝色参考线进行操作。</li>
+<li>把它放在你想要的地方。您刚刚创建了一个新列！</li>
+<li>您可以在页面宽度上创建任意数量的列。</li>
+</ul>
+</li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://videos.ctfassets.net/spoqsaf9291f/6CFjFyUvEruqchT7DZ9izL/0a26fa00742915b2f51f06671a9a0b54/column_creation.mp4">演示视频</a></p>
+<h2 id="markdown基本操作"><a href="#markdown基本操作" class="headerlink" title="markdown基本操作"></a><strong>markdown基本操作</strong></h2><p><strong>相比较而言更推荐用自带快捷键（假如有的话）：</strong></p>
+<ul>
+<li><code>ctrl b</code> 加粗</li>
+<li><code>ctrl s</code> 删除线</li>
+<li><strong><code>ctrl k</code></strong> 添加链接</li>
+<li><strong><code>ctrl i</code></strong> 修改为斜体</li>
+<li><strong><code>ctrl e</code></strong> 转化代码</li>
+<li><code>###</code>添加标题</li>
+<li><code>**</code>加粗，<code>*</code>斜体，<code>~</code>删除线</li>
+<li><code>&quot;</code>+ <code>sapce</code>创建引用块</li>
+<li><code>[]</code>可以创建选项to-do</li>
+<li><code>[[</code>可以创建链接其他笔记</li>
+<li>输入<code>*</code>,<code>-</code>或<code>+</code> 和<code>space</code>创建 <strong>无序号</strong> list，而输入 <code>1.</code>和<code>space</code>可以创建<strong>有序号list</strong></li>
+<li>键入 <code>&gt;</code> 和 <code>space</code> 创建展开列表</li>
+</ul>
+<hr>
+<p>暂时整理到这里，数据库功能或许要等以后再继续深入学习了，但暂时简单记记笔记应该够用了，以上。</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Notion/" rel="tag"># Notion</a>
+              <a href="/tags/%E6%95%99%E7%A8%8B/" rel="tag"># 教程</a>
+          </div>
+
         
-      
-    </div>
 
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/07/16/Welcome%20Page/" rel="prev" title="欢迎页">
+      <i class="fa fa-chevron-left"></i> 欢迎页
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
       </footer>
+    
   </article>
   
   
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/07/16/Welcome%20Page/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Zlxm Chen">
-      <meta itemprop="description" content="风吹来故事的种子，时间使之发芽">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Zlxm's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/07/16/Welcome%20Page/" class="post-title-link" itemprop="url">欢迎页</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2022-07-16 13:45:00 / 修改时间：16:49:25" itemprop="dateCreated datePublished" datetime="2022-07-16T13:45:00+08:00">2022-07-16</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>欢迎来到Zlxm Blog！<br>暂时还没有想好以后会发布哪些文章，或许会以知识归档和摄影教程为主，网站应该也会不断更新（后续大概会有RSS订阅服务）<br>欢迎评论或是参与讨论！任何问题欢迎私信<br><img src="/images/IMG_0585.jpg" alt="DSC_9215"></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
   
 
 
@@ -346,6 +414,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Notion%E7%BC%96%E8%BE%91%E8%AF%AD%E6%B3%95"><span class="nav-number">1.</span> <span class="nav-text">Notion编辑语法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Block%E7%9A%84%E6%A6%82%E5%BF%B5%E5%92%8C%E4%BD%9C%E7%94%A8"><span class="nav-number">1.1.</span> <span class="nav-text">Block的概念和作用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BB%E8%A6%81%E7%9A%84%E6%96%87%E6%9C%AC%E5%BD%A2%E5%BC%8F%E4%BB%8B%E7%BB%8D%EF%BC%9A"><span class="nav-number">1.1.1.</span> <span class="nav-text">主要的文本形式介绍：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%84%E7%A7%8D%E5%90%84%E6%A0%B7%E7%9A%84Heading"><span class="nav-number">1.1.2.</span> <span class="nav-text">各种各样的Heading</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Block%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C%EF%BC%9A"><span class="nav-number">1.1.3.</span> <span class="nav-text">Block相关操作：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#markdown%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="nav-number">1.2.</span> <span class="nav-text">markdown基本操作</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
