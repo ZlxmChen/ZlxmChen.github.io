@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Zlxm&#39;s Blog</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-07-16T06:10:02.108Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Zlxm Chen</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>textpage</title>
+    <link href="http://example.com/2022/07/16/textpage/"/>
+    <id>http://example.com/2022/07/16/textpage/</id>
+    <published>2022-07-16T06:10:02.000Z</published>
+    <updated>2022-07-16T06:10:02.108Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>欢迎页</title>
+    <link href="http://example.com/2022/07/16/Welcome%20Page/"/>
+    <id>http://example.com/2022/07/16/Welcome%20Page/</id>
+    <published>2022-07-16T05:45:00.000Z</published>
+    <updated>2022-07-16T06:44:45.518Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;欢迎来到Zlxm Blog！&lt;br&gt;暂时还没有想好以后会发布哪些文章，或许会以知识归档和摄影教程为主，网站应该也会不断更新（后续大概会有RSS订阅服务）&lt;br&gt;欢迎评论或是参与讨论！任何问题欢迎私信&lt;br&gt;&lt;img src=&quot;/images/DSC_9215.jpg&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="简介" scheme="http://example.com/categories/%E7%AE%80%E4%BB%8B/"/>
+    
+    
+  </entry>
+  
+</feed>
